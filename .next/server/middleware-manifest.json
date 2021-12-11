@@ -1,0 +1,41 @@
+{
+  "sortedMiddleware": [
+    "/chrome",
+    "/redirect"
+  ],
+  "clientInfo": [
+    [
+      "/chrome",
+      false
+    ],
+    [
+      "/redirect",
+      false
+    ]
+  ],
+  "middleware": {
+    "/chrome": {
+      "env": [],
+      "files": [
+        "static/chunks/webpack-middleware-45f9f9587e6c08e1.js",
+        "server/middleware-chunks/213.js",
+        "server/pages/chrome/_middleware.js"
+      ],
+      "name": "pages/chrome/_middleware",
+      "page": "/chrome",
+      "regexp": "^/chrome(?:(/.*)?)$"
+    },
+    "/redirect": {
+      "env": [],
+      "files": [
+        "static/chunks/webpack-middleware-45f9f9587e6c08e1.js",
+        "server/middleware-chunks/213.js",
+        "server/pages/redirect/_middleware.js"
+      ],
+      "name": "pages/redirect/_middleware",
+      "page": "/redirect",
+      "regexp": "^/redirect(?:(/.*)?)$"
+    }
+  },
+  "version": 1
+}

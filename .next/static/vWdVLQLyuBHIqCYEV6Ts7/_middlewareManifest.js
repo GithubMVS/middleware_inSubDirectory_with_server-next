@@ -1,0 +1,1 @@
+self.__MIDDLEWARE_MANIFEST=(function(a){return [["\u002Fchrome",a],["\u002Fredirect",a]]}(false));self.__MIDDLEWARE_MANIFEST_CB&&self.__MIDDLEWARE_MANIFEST_CB()
